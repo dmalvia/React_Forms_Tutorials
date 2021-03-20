@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Branch - use-react-hook-form
+
+This branch contains codebase for handling and validation of forms using react-hook-form package/library
+
+## Branch - use-native
+
+This branch contains codebase for handling and validation of forms wihtout and external library/package native way
+
 ## Available Scripts
 
 In the project directory, you can run:
