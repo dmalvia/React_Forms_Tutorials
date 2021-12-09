@@ -1,10 +1,15 @@
 body {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
 }
 
 .container {
-  display:flex !important;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -15,8 +20,8 @@ body {
 }
 .container > form {
   width: 70%;
-  border:1px solid #dfdfdf;
-  padding:20px;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
   border-radius: 5px;
   background: #fff;
 }
@@ -30,5 +35,5 @@ button {
   background: #0563b4 !important;
 }
 p {
-  color:red
+  color: red;
 }
